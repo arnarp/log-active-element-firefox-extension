@@ -17,6 +17,4 @@ function watchActiveElement() {
     }
   }, 100);
 }
-if (process.env.NODE_ENV === "development") {
-  watchActiveElement();
-}
+watchActiveElement();

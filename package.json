@@ -1,8 +1,8 @@
 {
   "name": "log-active-element-firefox-extension",
-  "version": "1.0.0",
   "description": "Firefox extension that logs active element",
   "scripts": {
-    "build": "web-ext build"
+    "build": "web-ext build --overwrite-dest",
+    "start": "web-ext run"
   }
 }
